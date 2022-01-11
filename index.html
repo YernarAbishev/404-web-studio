@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Разработка сайтов</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+
+</style>
+<body>
+    <nav id="navbar" class="fixed-top navbar navbar-expand-lg">
+        <div class="container">
+            <a class="brand" href="#main"><span class="blue-brand">404web</span>.studio</a>
+            <button id="burger-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item m-1">
+                        <a class="header-link" href="#main">Главная</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="header-link" href="#services">Услуги</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="header-link" href="#about">Почему мы?</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="header-link" href="#cases">Кейсы</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="header-link" href="#reviews">Отзывы</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="header-link" href="#contact">Контакты</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <div id="theme" onclick="darkTheme()">
+                            <div class="moon"></div>
+                        </div>
+                    </li>                   
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <div id="main">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>Разработка сайтов и приложений для бизнеса</h1>
+                    <p>Мы разрабатываем цифровые продукты: сайты, мобильные приложения, чат-боты</p>
+                    <a href="#services" class="main-btn">
+                        <div class="inner"></div>
+                        Что мы делаем?
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <div class="main-image-wrap">
+                        <img src="img/main.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="socials">
+                <a href="#">i</a>
+                <a href="#">t</a>
+                <a href="#">w</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <div class="row">
+                <h2>Мы разрабатываем</h2>
+                <h3>Цитата</h3>
+                <div class="col-md-3 mb-3">
+                    <div class="service-item"></div>
+                    <h4>Сайты</h4>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="service-item"></div>
+                    <h4>Приложения</h4>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="service-item"></div>
+                    <h4>Чат-боты</h4>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="service-item"></div>
+                    <h4>Платформы</h4>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="#about" class="reverse-btn">О нас</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h2>Почему мы?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nihil pariatur a ipsam, autem perferendis dolorem quo officia assumenda repudiandae qui, quis labore neque praesentium, eveniet nam eum doloribus soluta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nihil pariatur a ipsam, autem perferendis dolorem quo officia assumenda repudiandae qui, quis labore neque praesentium, eveniet nam eum doloribus soluta.</p>
+                    <a href="#cases" class="reverse-btn">Наши работы</a>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="about-image-wrap">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="cases">
+        <div class="container">
+            <h2>Наши работы</h2>
+            <div class="case-item mb-3"></div>
+            <div class="case-item mb-3"></div>
+            <div class="case-item mb-3"></div>
+            <div class="case-item mb-3"></div>
+        </div>
+    </div>
+
+    <div id="reviews">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <div class="case-item"></div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <h2>Свяжитесь с нами</h2>
+        </div>
+    </div>
+
+    <div id="socials">
+        <div class="container">
+            <h2>Подпишись</h2>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <a href="#" class="blue-link">404web.studio</a>, 2021-2022. Все права защищены</p>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
